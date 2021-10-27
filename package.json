@@ -1,0 +1,42 @@
+{
+  "name": "rocketmail-frontend",
+  "version": "0.1.0",
+  "description": "Aplicação de envio de protocolo por email.",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@tinymce/tinymce-react": "^3.13.0",
+    "axios": "^0.18.0",
+    "camelize": "^1.0.0",
+    "chart.js": "^2.7.3",
+    "classnames": "^2.2.6",
+    "cross-env": "^5.2.0",
+    "dateformat": "^3.0.3",
+    "flux": "^3.1.3",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "lodash.find": "^4.6.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-date-picker": "^8.1.1",
+    "react-dom": "^16.4.2",
+    "react-file-base64": "^1.0.3",
+    "react-ga": "^2.5.6",
+    "react-quill": "^1.3.5",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "1.1.4",
+    "react-svg-inline": "^2.1.1",
+    "shards-react": "darizabalo/shards-react#master",
+    "shortid": "^2.2.14",
+    "styled-components": "^3.4.2",
+    "sweetalert2": "^10.13.0"
+  },
+  "scripts": {
+    "start": "set PORT=4001 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
